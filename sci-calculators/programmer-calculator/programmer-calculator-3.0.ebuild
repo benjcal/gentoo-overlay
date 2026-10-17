@@ -15,6 +15,8 @@ KEYWORDS="~amd64"
 DEPEND="sys-libs/ncurses:="
 RDEPEND="${DEPEND}"
 
+PATCHES=( "${FILESDIR}/${P}-default-colors.patch" )
+
 src_compile() {
 	emake \
 		CC="$(tc-getCC)" \

@@ -1,0 +1,13 @@
+Default the colors interface to enabled.
+
+--- a/src/draw.c
++++ b/src/draw.c
+@@ -19,7 +19,7 @@
+ int symbols_enabled = 1;
+ int binary_enabled = 1;
+ int history_enabled = 1;
+-int colors_enabled = 0;
++int colors_enabled = 1;
+ 
+ int use_interface = 1;
+ 
