@@ -1,0 +1,13 @@
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -52,10 +52,7 @@
+     "requests>=2.28.0",
+     "beautifulsoup4>=4.11.0",
+     "lxml>=6.0.0",
+-    "pyspice>=1.5",
+     "twine>=6.1.0",
+-    # Fast generation dependencies
+-    "openai>=1.0.0",
+     "python-dotenv>=1.0.0",
+ ]
+ 

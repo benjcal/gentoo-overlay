@@ -1,0 +1,11 @@
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -34,8 +34,6 @@
+     "sexpdata>=0.0.3",
+     "typing-extensions>=4.0.0; python_version<'3.11'",
+     "pydantic>=2.0.0",
+-    "mcp>=1.10.0",
+-    "fastmcp>=0.2.0",
+     "jinja2>=3.0.0",
+ ]
+ 
