@@ -19,10 +19,10 @@ QA_PREBUILT="opt/TradingView/*"
 
 RDEPEND="
 	app-accessibility/at-spi2-core:2
+	app-crypt/libsecret
 	dev-libs/atk
 	dev-libs/expat
 	dev-libs/glib:2
-	dev-libs/libsecret
 	dev-libs/nspr
 	dev-libs/nss
 	media-libs/alsa-lib
