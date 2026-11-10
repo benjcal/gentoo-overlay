@@ -163,9 +163,14 @@ SRC_URI="
 LICENSE="GPL-3"
 # Dependent crate licenses
 LICENSE+=" Apache-2.0 BSD CDLA-Permissive-2.0 ISC MIT Unicode-3.0 ZLIB"
-SLOT="0"
+SLOT="3"
 KEYWORDS="~amd64"
 RDEPEND="sys-apps/bubblewrap"
+
+src_install() {
+	cargo_src_install
+	mv "${ED}/usr/bin/ai-jail" "${ED}/usr/bin/ai-jail3"
+}
 
 src_test() {
 	cargo_src_test --bin ai-jail
